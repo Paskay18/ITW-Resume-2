@@ -1,0 +1,25 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+header{ color: white;
+    background-color: #e12574;
+    
+}
+
+#Menu{ 
+    background-color: #e12574;
+}
+
+a{ 
+    color: white;
+}
+
+#section1{ 
+    background-color: #d42b712b;;
+}
+
+#section2{ 
+    background-color: #1c8eb5;
+}
