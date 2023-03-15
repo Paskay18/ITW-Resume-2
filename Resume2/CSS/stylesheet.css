@@ -6,11 +6,19 @@ body {
 header{ color: white;
     background-color: #e12574;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: #e12574 solid;
     
 }
 
 #Menu{ 
     background-color: #e12574;
+    padding: 3rem;
+    margin-right: 70rem;
+    margin-left: 6rem;
+    border: white solid 1px;
+
 }
 
 a{ 
@@ -18,9 +26,25 @@ a{
 }
 
 #section1{ 
-    background-color: #d42b712b;;
+    background-color: #d42b712b;
+    padding: 3rem;
+    margin-left: 19rem;
+    border: white 1px solid;
 }
 
 #section2{ 
     background-color: #1c8eb5;
+    padding: 3rem;
+    margin-left: 6rem;
+    margin-right: 70rem;
+    border: white 1px solid;
+}
+
+#image{
+    border-radius:100%;
+    padding: 0.2rem;
+    margin:1rem;
+    height: 200px;
+    width: 200px;
+    border: white 1px solid;
 }
