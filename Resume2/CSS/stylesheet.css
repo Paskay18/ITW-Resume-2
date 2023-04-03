@@ -138,23 +138,92 @@ a{
     border: white 1px solid;
     }
 
-    #footer{
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: #001242;
-        flex: 1 1 200px;
-        margin-right: 0px; 
+   
 
-    }
+    
 
     .icons{
         height: 30px;
         width: 30px;
        padding-right: 4rem;
        padding-bottom: 1rem;
-
+       
+       
         
        
     }
+
+
+
+    #footer{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: #001242;
+        flex: 1 1 200px;
+    
+        height: 700px;
+    }
+
+
+
+    /*form*/
+    .formswrapper{
+    margin-top: -30px;
+    width: 500px;
+    height: 400px; ;
+    background-color: #001242;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+
+}
+
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px;
+    padding-top:20px;
+    font-size: 15px;
+    
+}
+
+label{
+    width: 230px;
+    height: 20px;
+    font-size: 15px;
+}
+
+input{
+    width: 230px;
+    height: 20px;
+}
+
+button{
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+::placeholder{
+    color: blue;
+    font-weight: bold;
+    font-size:10px ;
+}
+
+textarea{
+    width: 230px;
+    height: 45px;
+    margin-bottom: 5px;
+}
