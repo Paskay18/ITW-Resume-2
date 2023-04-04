@@ -195,7 +195,7 @@ footer{
     width: 100%;
 }
    
-#footer{
+#footerS{
     display: flex;
     flex-direction: row-reverse;
     margin-left: 100px;
