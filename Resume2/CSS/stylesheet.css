@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    ;
 }
 
 #wrapper{
@@ -23,8 +24,10 @@ body {
 
 
 
-header{ color: white;
-    background-color: #001242;
+#header{ 
+    color: white;
+    background-image: url("./background.jpg") ;
+    ;
     text-align: right;
     border: #000022 solid;
     display: flex;
@@ -33,16 +36,36 @@ header{ color: white;
     justify-content: flex-end;
     padding-right: 6rem;
     margin-top: 3rem;
-    margin-left: 40%;
+    margin-left: 49%;
     margin-right: 0%;
     min-height: 200px;
     flex-basis: 200px;
-    flex:1 1 0
-    
-   
-    
-    
+    flex:1 1 0;
+    position:relative;
+    isolation: isolate;
 }
+
+
+
+/*Opacity of background image*/
+
+#header::after{
+    content: '';
+    position: absolute ;
+    background: #000022;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.5;}
+    
+    #section2::after{
+        content: '';
+        position: absolute ;
+        background: #000022;
+        inset: 0;
+        z-index: -1;
+        opacity: 0.5;}
+
+    
 
 #h1{ 
     font-size: 40px;
@@ -104,6 +127,7 @@ a{
 
 #section2{ 
     color: white;
+    z-index: 1;
     background-color: #000022;
     border: #000022 1px solid;
     display: flex;
@@ -115,6 +139,9 @@ a{
     padding-bottom: 2.5rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    background-image: url("./background.jpg");
+    position:relative;
+    isolation: isolate;
     }
 
     #AboutMe{
@@ -153,30 +180,42 @@ a{
        
     }
 
-
-
-    #footer{
-        color: white;
+    .contact{
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        background-color: #001242;
-        flex: 1 1 200px;
-    
-        height: 700px;
+        align-items: end;
     }
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #000022;
+    color: white;
+    width: 100%;
+}
+   
+#footer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    
+    
+}
 
 
 
     /*form*/
     .formswrapper{
     margin-top: -30px;
+    
     width: 500px;
     height: 400px; ;
-    background-color: #001242;
+    background-color: #000022;
     color: aliceblue;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-end;
     
     
 
@@ -187,7 +226,7 @@ a{
     display: flex;
     flex-direction: column;
     width: 500px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
     margin: 30px;
     padding-top:20px;
