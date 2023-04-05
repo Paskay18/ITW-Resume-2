@@ -14,6 +14,7 @@ body {
     background-color: white;
     margin: auto;
     position: relative;
+    
 }
 
 #rowbox{ 
@@ -27,23 +28,36 @@ body {
 #header{ 
     color: white;
     background-image: url("./background.jpg") ;
+    
     ;
-    text-align: right;
+    text-align: center;
     border: #000022 solid;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-right: 6rem;
-    margin-top: 3rem;
-    margin-left: 49%;
-    margin-right: 0%;
-    min-height: 200px;
+    margin-left: ;
+    
+    min-height: 700px;
     flex-basis: 200px;
     flex:1 1 0;
     position:relative;
     isolation: isolate;
 }
+
+#Statements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    
+
+
+}
+
+
+
 
 
 
@@ -69,25 +83,31 @@ body {
 
 #h1{ 
     font-size: 40px;
+    text-align: right;
+    
+    
 
 }
 
-#p{ 
+.p{ 
     font-size: 20px;
+    
 }
 
 #Menu{ 
-    
+
     color: white;
     background-color: #797979;
     padding: 3rem;
-    border: #000022 solid 3px;
+    border-right: #000022 solid  3px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 4rem;
-    margin-top: -200px;    
     width: 200px;
+    z-index: 1;
+    
+    
     
     }
 #nav{
@@ -123,29 +143,14 @@ a{
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+    z-index: 1;
+    width: 1200px;
     }
 
-#section2{ 
-    color: white;
-    z-index: 1;
-    background-color: #000022;
-    border: #000022 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding top: 2rem;
-    width: 500px;
-    margin-top: -257px;
-    padding-bottom: 2.5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    background-image: url("./background.jpg");
-    position:relative;
-    isolation: isolate;
-    }
+
 
     #AboutMe{
-        text-align: center;
+        text-align: right;
         line-height: 30px;
        font-size: 25px;
 
@@ -153,13 +158,14 @@ a{
 
     .p{ font-size: 20px;
         
+        
     
     }
 
 #image{
     border-radius:100%;
     padding: 0.2rem;
-    margin: 3rem;
+    margin-top: -5%%;
     height: 300px;
     width: 300px;
     border: white 1px solid;
@@ -193,6 +199,7 @@ footer{
     background-color: #000022;
     color: white;
     width: 100%;
+    z-index: -1;
 }
    
 #footerS{
